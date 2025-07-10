@@ -10,6 +10,9 @@
 .text-primary{
     color: #FD6E0A;
 }
+.secondary-bg{
+    background-color:#FFF8F3 ;
+}
 .dark-1{
     color: #181818;
 }
@@ -27,8 +30,15 @@
     padding: 18px 30px;
     border: none;
     border-radius: 5px;
+}
 
-
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
 }
 /* header */
 .header{
@@ -85,4 +95,26 @@ nav li a{
 }
 .banner-profile-pic{
     width: 580px;
+}
+/* Main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.about-description{
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
 }
